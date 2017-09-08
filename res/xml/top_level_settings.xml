@@ -197,6 +197,14 @@
         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="tokyo.witaqua.settings.WitAquaSettings"
+        android:icon="@drawable/ic_settings_witaqua"
+        android:key="top_level_witaqua"
+        android:order="9"
+        android:title="@string/witaqua_dashboard_title"
+        settings:controller="tokyo.witaqua.settings.TopLevelWitAquaSettingsPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.system.SystemDashboardFragment"
         android:icon="@drawable/ic_settings_system_dashboard_white"
         android:key="top_level_system"

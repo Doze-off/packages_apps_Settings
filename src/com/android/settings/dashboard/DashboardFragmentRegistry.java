@@ -51,6 +51,8 @@ import com.android.settings.supervision.SupervisionDashboardFragment;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
+import tokyo.witaqua.settings.WitAquaSettings;
+
 import java.util.Map;
 
 /**
@@ -135,7 +137,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_MORE_SECURITY_PRIVACY_SETTINGS);
         PARENT_TO_CATEGORY_KEY_MAP.put(SupervisionDashboardFragment.class.getName(),
                 CategoryKey.CATEGORY_SUPERVISION);
-
+        PARENT_TO_CATEGORY_KEY_MAP.put(WitAquaSettings.class.getName(),
+                CategoryKey.CATEGORY_WITAQUA);
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 
         for (Map.Entry<String, String> parentToKey : PARENT_TO_CATEGORY_KEY_MAP.entrySet()) {

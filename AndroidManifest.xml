@@ -5693,5 +5693,24 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Begin WitAquaMagic -->
+        <activity android:name="Settings$WitAquaSettingsActivity"
+                android:label="@string/witaqua_dashboard_title"
+                android:icon="@drawable/ic_settings_witaqua"
+                android:exported="true"
+                android:taskAffinity="com.android.settings"
+                android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="tokyo.witaqua.settings.WitAquaSettings" />
+            <meta-data android:name="com.android.settings.title"
+                       android:resource="@string/witaqua_dashboard_title" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                       android:value="true" />
+        </activity>
     </application>
 </manifest>
