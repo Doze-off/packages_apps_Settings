@@ -54,5 +54,9 @@
     <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
     <!-- Quad9 Unsecured ECS DNS hostname -->
     <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
 </resources>
 
