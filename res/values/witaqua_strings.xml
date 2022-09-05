@@ -104,5 +104,10 @@
     <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
     <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
+
+    <!-- Per-app volume -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Show per-app volume button into volume dialog</string>
 </resources>
 
