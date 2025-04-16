@@ -4225,8 +4225,7 @@
             android:name="RegulatoryInfoDisplayActivity"
             android:theme="@style/Theme.AlertDialog"
             android:label="@string/regulatory_labels"
-            android:exported="true"
-            android:enabled="@bool/config_show_regulatory_info">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.settings.SHOW_REGULATORY_INFO" />
                 <category android:name="android.intent.category.BROWSABLE" />
