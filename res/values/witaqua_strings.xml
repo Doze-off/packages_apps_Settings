@@ -10,6 +10,10 @@
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
 
+        <!-- Build Status, build maintainer -->
+    <string name="build_status">Build status</string>
+    <string name="build_status_summary" translatable="false">%1$s by %2$s</string>
+
     <!-- Cloudflare Block Malware DNS Option -->
     <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
     <!-- Cloudflare Block Malware DNS hostname -->
